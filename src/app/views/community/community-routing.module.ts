@@ -8,14 +8,14 @@ const routes: Routes = [
     path: '',
     component: CommunityComponent,
     data: {
-      title: 'Health Practitioners',
+      title: 'Fitness Trainers',
     },
   },
   {
     path: 'edit/:id',
     component: EditCommunityComponent,
     data: {
-      title: 'Edit Health Practitioner',
+      title: 'Edit Trainer',
     },
   },
 ];
