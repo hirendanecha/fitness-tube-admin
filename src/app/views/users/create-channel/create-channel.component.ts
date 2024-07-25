@@ -50,11 +50,11 @@ export class CreateChannelComponent {
   slugify = (str: string) => {
     return str?.length > 0
       ? str
-        .toLowerCase()
-        .trim()
-        .replace(/[^\w\s-]/g, '')
-        .replace(/[\s_-]+/g, '-')
-        .replace(/^-+|-+$/g, '')
+          .toLowerCase()
+          .trim()
+          .replace(/[^\w\s-]/g, '')
+          .replace(/[\s_-]+/g, '-')
+          .replace(/^-+|-+$/g, '')
       : '';
   };
 
